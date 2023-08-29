@@ -4,7 +4,7 @@ jobs:
       language: python
       python:
        - "3.8"
-      arch: amd64
+      arch: amd64jhgjhggjgjhghjghjgjg
       dist: focal
       script:
         - python hello_world.py
