@@ -12,6 +12,4 @@ jobs:
 env:
   global:
     secure: dewotLLljjWGez6Rt9aRuzXlhhJKb4+Z216MIoQOPVxh7gQe63M9s2iK1JHzNgvuvHPcRVrVBCsoarW/IUCiHpFt+UDQ9wBe6k/I27ysCGa1hRJKaC4KO8fjK3qwlxVBC3fgjNrA3tplPGPEiRey/9Ur8sBEHlLruH85wGeJ7GNOD/zR36T+DmS9lxA6anGkF+D9082nBhupjTwExUxVp33OOg1xd+QcedK5e6wEfVduRorkChh4DHeL7Iz7X7mMGnhYgBjDU7XKyy41kBy/E/X3chYhbznDqYDF+R0EygKwVgwO0j1oMWjerH8KXxIIsD3VDvSqW2N3w+4+enAsU5A/FDOS6zvpj6SMxEhUzVPZO/ZhMG4tqizUi9RiXpftLCjc2xFOidL4aa7QqnFj08yAqWkpxvyo/MwaYk2Pdv81G9i6SMFvID/ZA9fh88dDvTiC9Gaa8O2dFrrvO4SVshyQH0csfg7QtJkZnlbsjCuQS+BWge6GOmiLnZ9CXG6VeogW6ZZVgJzaP7OUm4jAybSvon7QBzczFPOBrVU1bYcr5dFE0kNxrN0viG6r/z+ue8wsum4sIYF3vdvpj+ATbChQrYFh1vKT3hYedjUlYyvhldq9EqlEEEYuDLwnevnPBMqd5FVJK1NCylDjXS4A7vJbyr/TU3aqDd5+LzViBf4=
-    before_install:
-  openssl aes-256-cbc -K $encrypted_super_secret_password_key -iv $encrypted_super_secret_password_iv -in super_secret.txt.enc -out super_secret.txt -d
-
+    
