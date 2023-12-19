@@ -7,4 +7,4 @@ obs:
       arch: amd64
       dist: focal
       script:
-        - python hello_world.py
+        - pytest
