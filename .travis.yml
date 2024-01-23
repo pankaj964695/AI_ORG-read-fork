@@ -8,4 +8,4 @@ script:
   - python -c "print('Log line\n'*200000)"
 env:
   global:
-    - log_limit=200
+    - log_limit=500
