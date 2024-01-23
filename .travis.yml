@@ -2,13 +2,10 @@ jobs:
   include:
     - os: linux
       language: python
-      python:
-       - "3.8"
-      cache:
-        bundler: true
-        directories:
-        - node_modules # NPM packages
-      arch: amd64
-      dist: focal
-      script:
-        - python hello_world.py
+python:
+  - "3.8"
+script:
+  - python -c "print('Log line\n'*200000)"
+env:
+  global:
+    - log_limit=30
